@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image:url(img/17973908.jpg) ;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.menu li a:hover {
+    color: #1877F2;
+}
+.img-01 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.img-01 .img img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.img-01 h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.img-01 h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.img-01 aside {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+    color: #2c2c2c;
+}
+
+.img-01 aside p {
+    font-size: 1.2rem;
+    color: #222121;
+}
+
+
